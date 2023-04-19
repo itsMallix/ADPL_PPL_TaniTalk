@@ -16,8 +16,17 @@
     ?>
 
     <div class="box">
-        <p class="text_login">Silahkan Login</p>
-        <form action=""></form>
+        <p class="textLogin">Silahkan Login</p>
+        <form action="/config/cekLogin.php" method="post">
+            <label>Username</label>
+            <input type="text" name="username" class="formLogin" placeholder="username" required="required">
+
+            <label>Password</label>
+            <input type="password" name="password" class="formLogin" placeholder="password" required="required">
+
+            <input type="submit" class="loginBtn" value="Login">
+
+        </form>
     </div>
 </body>
 </html>
