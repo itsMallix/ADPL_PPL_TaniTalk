@@ -22,10 +22,10 @@ if($check > 0){
         header("location:../pages/dashboardPengelola.php");
     }
     else{
-        header("location:../Index.php?pesan=gaga;");
+        header("location:../index.php?pesan=gagal;");
     }
 }
 else{
-    header("location:../Index.php?pesan=gaga;");
+    header("location:../index.php?pesan=gagal;");
 }
 ?>
