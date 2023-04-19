@@ -8,11 +8,11 @@
 </head>
 <body>
     <?php
-    session_start();
+        session_start();
 
-    if($_SESSION['level']==""){
-        header("locaation:../index.php?pesan=gagal");
-    }
+        if($_SESSION['level']==""){
+            header("locaation:../index.php?pesan=gagal");
+        }
 
     ?>
 </body>

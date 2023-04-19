@@ -1,6 +1,6 @@
 <?php
 $server = 'localhost';
-$database = 'user';
+$database = 'TaniTalk';
 $username = 'root';
 $password = '';
 
