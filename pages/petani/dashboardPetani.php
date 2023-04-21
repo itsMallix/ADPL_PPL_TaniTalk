@@ -12,6 +12,7 @@
     <?php
         session_start();
         include "_sidebarPetani.php";
+        include "_navbarPetani.php";
 
         if($_SESSION['level']==""){
             header("locaation:../index.php?pesan=gagal");

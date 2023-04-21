@@ -15,7 +15,7 @@ body {
     margin: 0;
     font-family: 'poppins' , Times, serif;
     font-size: 10px;
-    color: #212529;
+    color: #333;
     -webkit-text-size-adjust: 40%;
     -webkit-tap-highlight-color: transparent;
 }
@@ -39,9 +39,9 @@ main {
 .sidebar {
     position: fixed;
     left: 0px;
-    width: 300px;
+    width: 260px;
     height: 100%;
-    background: #74bdcb;
+    background: #333;
     transition: all 0.5s ease;
 }
 
@@ -57,13 +57,11 @@ main {
     display: block;
     height: 100%;
     width: 100%;
-    line-height: 65px;
+    line-height: 50px;
     font-size: 15px;
     color: #fff;
     padding-left: 40px;
     box-sizing: border-box;
-    border-top: 1px solid rgba(6, 255, 251, 0.1);
-    border-bottom: 1px solid rgba(125, 134, 146, 0.302);
     transition: all 0.5s ease;
 }
 
