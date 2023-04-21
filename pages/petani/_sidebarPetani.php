@@ -1,13 +1,14 @@
 <!-- sidebar  -->
 <div class="sidebar">
     <ul class="menu">
-        <li><a href="#">Dashboard</a></li>
-        <li><a href="#">Identifikasi Penyakit</a></li>
+        <li><a href="dashboardPetani.php">Dashboard</a></li>
+        <li><a href="identifikasiPenyakit.php">Identifikasi Penyakit</a></li>
         <li><a href="#">Kalkulasi pupuk</a></li>
         <li><a href="#">Prakiraan Cuaca</a></li>
-        <li><a href="#"></a></li>
+        <li><a href="#">Pencatatan</a></li>
     </ul>
 </div>
+
 
 <style>
 body {
@@ -15,7 +16,7 @@ body {
     font-family: 'poppins' , Times, serif;
     font-size: 10px;
     color: #212529;
-    -webkit-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 40%;
     -webkit-tap-highlight-color: transparent;
 }
 
@@ -38,7 +39,7 @@ main {
 .sidebar {
     position: fixed;
     left: 0px;
-    width: 250px;
+    width: 300px;
     height: 100%;
     background: #74bdcb;
     transition: all 0.5s ease;
@@ -57,7 +58,7 @@ main {
     height: 100%;
     width: 100%;
     line-height: 65px;
-    font-size: 20px;
+    font-size: 15px;
     color: #fff;
     padding-left: 40px;
     box-sizing: border-box;
