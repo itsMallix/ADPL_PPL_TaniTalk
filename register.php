@@ -19,11 +19,20 @@
     <div class="box">
         <p class="textLogin">Silahkan Login</p>
         <form action="config/cekRegis.php" method="post">
-            <label>Username</label>
-            <input type="text" name="username" class="formLogin" placeholder="username" required="required">
+            <label>Nama</label>
+            <input type="text" name="nama" class="formLogin" placeholder="nama" required="required">
+            
+            <label>Email</label>
+            <input type="text" name="email" class="formLogin" placeholder="email" required="required">
+           
+            <label>Alamat</label>
+            <input type="text" name="alamat" class="formLogin" placeholder="alamat" required="required">
 
             <label>Password</label>
             <input type="password" name="password" class="formLogin" placeholder="password" required="required">
+            
+            <label>level</label>
+            <input type="text" name="level" class="formLogin" placeholder="level" required="required">
 
             <input type="submit" class="loginBtn" value="Login">
         </form>
