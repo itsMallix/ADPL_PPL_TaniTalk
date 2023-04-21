@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Petani</title>
 </head>
 <body>
     <?php
@@ -13,7 +13,9 @@
         if($_SESSION['level']==""){
             header("locaation:../index.php?pesan=gagal");
         }
-        //lanjut nanti
+
     ?>
+
+    <h1>halaman petani</h1>
 </body>
 </html>

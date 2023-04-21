@@ -14,12 +14,12 @@ if($check > 0){
     if($data['level']=='petani'){
         $_SESSION['username'] = $uname;
         $_SESSION['level'] = 'petani';
-        header("location:../pages/dashboardPetani.php");
+        header("location:../pages/petani/dashboardPetani.php");
     }
     else if($data['level']=='pengelola'){
         $_SESSION['username'] = $uname;
         $_SESSION['level'] = 'pengelola';
-        header("location:../pages/dashboardPengelola.php");
+        header("location:../pages/pengelola/dashboardPengelola.php");
     }
     else{
         header("location:../index.php?pesan=gagal;");
