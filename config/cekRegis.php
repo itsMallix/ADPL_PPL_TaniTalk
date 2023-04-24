@@ -17,7 +17,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
     $hasil = $conn->query($sql);
 
     if($hasil->num_rows > 0){
-        echo "Email sudah terdaftar";
+        echo "<script type='text/javascript'>alert('Nama atau email sudah terdaftar');window.location='../register.php';</script>";
         exit();
     }
 

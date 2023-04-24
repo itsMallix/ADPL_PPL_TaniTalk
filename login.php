@@ -19,7 +19,7 @@
     <div class="box">
         <p class="textLogin">Silahkan Login</p>
         <form action="config/cekLogin.php" method="post">
-            <label>Username</label>
+            <label>Nama</label>
             <input type="text" name="username" class="formLogin" placeholder="username" required="required">
 
             <label>Password</label>
