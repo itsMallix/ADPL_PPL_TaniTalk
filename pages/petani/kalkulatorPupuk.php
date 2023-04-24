@@ -12,14 +12,19 @@
 
         if(isset($_POST['hitung'])){
             if($_POST['jenisPola']=='persegi'){
-                
+                $dosis = 0.33;
+                $jumlah_tanaman = ($_POST['luasLahan']/$_POST['jarakTanam_1']) * ($_POST['luasLahan']/$_POST['jarakTanam_2']);
+                // $jumlah_tanaman = ($luas_lahan/$jarak_1) * ($luas_lahan/$jarak_2);
+                $hasil = $jumlah_tanaman * $dosis;
             }
+        }else{
+            $hasil = 0;
         }
     ?>
 <body>
     <div class="content">
         <div class="kalkulator">
-            <form action="" method="GET">
+            <form action="" method="POST">
                 <h2>Kalkulator Pupuk</h2>
                 <input type="text" name="luasLahan" placeholder="Luas Lahan" class="input">
 
@@ -33,6 +38,7 @@
                 <input type="text" name="jarakTanam_2" placeholder="jarak Tanam Sisi 2" class="input">
 
                 <input type="submit" value="Hitung" name="hitung" class="hitung">
+                <h2>Hasil : <?php echo $hasil ?> gram</h2>
             </form>
         </div>
     </div>
