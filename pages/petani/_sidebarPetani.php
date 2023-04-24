@@ -4,7 +4,7 @@
         <li><a href="dashboardPetani.php">Dashboard</a></li>
         <li><a href="identifikasiPenyakit.php">Identifikasi Penyakit</a></li>
         <li><a href="kalkulatorPupuk.php">Kalkulasi pupuk</a></li>
-        <li><a href="#">Prakiraan Cuaca</a></li>
+        <li><a href="cuacaPetani.php">Prakiraan Cuaca</a></li>
         <li><a href="#">Pencatatan</a></li>
     </ul>
 </div>
