@@ -6,20 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kalkulator Pupuk</title>
 </head>
+    <?php
+        include '_sidebarPetani.php';
+        include '_navbarPetani.php';
+    ?>
 <body>
     <div class="kalkulator">
-        <form action="../../config/hitungKalkulasi.php" method="GET">
-            <label>Luas Lahan</label>
-            <input type="text" name="luasLahan" autocomplete="off" placeholder="0.0">
+        <form action="" method="GET">
+            <h2>Kalkulator Pupuk</h2>
+            <input type="text" name="luasLahan" placeholder="Luas Lahan" class="input">
 
             <label>Pola Tanam</label>
-            <input type="submit" name="persegi" value="Persegi">
-            <input type="submit" name="segitiga" value="Segitiga">
-            <input type="submit" name="persegiPanjang" value="Persegi Panjang">
-            <br>
-            <br>
-            <input type="submt" class="loginBtn" value="Hitung">
+            <select name="jenisPola" class="jenis">
+                <option value="persegi">Persegi</option>
+                <option value="segitiga">Segitiga</option>
+                <option value="persegi_P">Persegi Panjang</option>
+            </select>
+            <input type="text" name="jarakTanam_1" placeholder="Jarak Tanam Sisi 1" class="input">
+            <input type="text" name="jarakTanam_2" placeholder="jarak Tanam Sisi 2" class="input">
+
+            <input type="submit" value="Hitung" name="hitung" class="hitung">
         </form>
     </div>
 </body>
 </html>
+
+<style>
+    .kalkulator{
+        margin-left: 300px;
+    }
+    .input{
+        width: 300px;
+        margin: 5px;
+        border: 1px solid;
+        border-radius: 5px;
+        padding: 10px;
+        font-size: 15pt;
+    }
+    .hitung{
+
+    }
+    .jenis{
+        font-size: 15pt;
+        border: 1px solid;
+        width: 200px;
+        margin: 5px;
+        border-radius: 5px;
+        padding: 10px;
+    }
+</style>
