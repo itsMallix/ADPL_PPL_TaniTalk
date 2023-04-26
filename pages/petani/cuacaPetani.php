@@ -46,7 +46,7 @@
             </div>
         </div>
         <!-- forecasting -->
-        <div class="card" id="forecastContainer">
+        <div class="card" id="forecastContainer" style="display:none">
             <div class="cardBody">
                 <h2 class="title">Kota, Jember</h2>
                 <table class="table">
