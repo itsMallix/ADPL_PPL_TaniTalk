@@ -33,17 +33,7 @@
         <br>
         <!-- currrent  -->
         <div class="card" id="weatherContainer" style="display:none">
-            <div class="cardBody">
-                <h2 class="title">Kota, Jember</h2>
-                <p>
-                    Cuaca Saat Ini: 28.88 °C
-                    <br>
-                    Terasa Seperti : 28.79 °C
-                    <br>
-                    Tertinggi : 30.59 °C, Terendah : 24.37 °C
-                </p>
-                <img class="castIcon" src="../../asset/img/dummyclouds.png" alt="">
-            </div>
+            <!-- muncul cuaca disini -->
         </div>
         <!-- forecasting -->
         <div class="card" id="forecastContainer" style="display:none">
@@ -51,18 +41,7 @@
                 <h2 class="title">Kota, Jember</h2>
                 <table class="table">
                     <tbody id="body">
-                        <tr>
-                            <td><img src="../../asset/img/dummyclouds.png" alt=""></td>
-                            <td>
-                                <i class="fa fa-calender-chec-o" aria-hidden="true"></i><?php echo date("d M"); echo "<br>";echo date("Y");?><br>
-                                <i class="fa fa-clock-o" aria-hidden="true">08.00</i>
-                            </td>
-                            <td>
-                                <h3 class="info" style="margin: 0 5px 0 5px"> 29.37 °C <br><small>Tertinggi : 28.88 °C <br> Terendah : 24.37 °C</small> </h3>
-                            </td>
-                            <td>Clouds <br>Overcast cloud</td>
-                            <td></td>
-                        </tr>
+                        <!-- ramalan cuaca disini -->
                     </tbody>
                 </table>
             </div>
@@ -72,3 +51,4 @@
 </html>
 
 <script src="../../js/cuaca.js"></script>
+<script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
