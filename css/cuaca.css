@@ -4,13 +4,13 @@
     margin: 100px auto;
     padding: 10px 20px 50px 20px;
     border-radius: 5px;
-    box-shadow: 0px 10px 20px 0px;
+    /* box-shadow: 0px 10px 20px 0px; */
 }
 .searchBtn{
     border: none;
     background-color: blueviolet;
     align-items: center;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 .formControl{
     width: 300px;
@@ -28,4 +28,33 @@
     padding: 10px 20px;
     border-bottom: 5px;
     width: 300px;
+}
+.box1{
+    margin-left: 130px;
+}
+.cardBody{
+    max-width: auto;
+}
+.cardBody p{
+    font-size: 12px;
+    text-align: center;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.title{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.castIcon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
