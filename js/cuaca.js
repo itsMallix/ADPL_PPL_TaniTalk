@@ -9,9 +9,9 @@ sendCity.addEventListener('click',weatherView);
 function weatherView(){
     if(current.checked == true){
         if(city.value){
-            weatherContainer.classList.remove("display");
+            weatherContainer.style.display = "block";
         }
     }else{
-        weatherContainer.classList.add("display");
+        weatherContainer.style.display = "none";
     }
 }

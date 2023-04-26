@@ -31,7 +31,7 @@
             </div>
         </div>
         <br>
-        <div class="card" id="weatherContainer">
+        <div class="card" id="weatherContainer" style="display:none">
             <div class="cardBody">
                 <h2 class="title">Kota, Jember</h2>
                 <p>
@@ -47,4 +47,5 @@
     </div>
 </body>
 </html>
+
 <script src="../../js/cuaca.js"></script>
