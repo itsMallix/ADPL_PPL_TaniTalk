@@ -37,8 +37,8 @@
         </div>
         <!-- forecasting -->
         <div class="card" id="forecastContainer" style="display:none">
-            <div class="cardBody">
-                <h2 class="title">Kota, Jember</h2>
+            <div class="cardBody" id="cardBody">
+                <h2 class="title" id="title"></h2>
                 <table class="table">
                     <tbody id="body">
                         <!-- ramalan cuaca disini -->
@@ -51,4 +51,3 @@
 </html>
 
 <script src="../../js/cuaca.js"></script>
-<script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
