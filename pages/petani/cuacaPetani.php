@@ -17,7 +17,7 @@
         <div class="input-grup">
             <input type="text" class="formControl" id="city" placeholder="Masukkan Nama Kota">
             <br>
-            <button class="searchBtn" id="search">Search</button>
+            <button class="searchBtn" id="send">Search</button>
         </div>
 
         <br>
@@ -26,7 +26,7 @@
                 <input type="checkbox" class="box0" name="weather" id="currentWeather">
                 <label for="currentWeather">Cuaca Saat Ini</label>
 
-                <input type="checkbox" class="box1" name="weather" id="forcast">
+                <input type="checkbox" class="box1" name="weather" id="forecast">
                 <label for="forcast">Prakiraan Cuaca</label>
             </div>
         </div>
@@ -47,3 +47,4 @@
     </div>
 </body>
 </html>
+<script src="../../js/cuaca.js"></script>
