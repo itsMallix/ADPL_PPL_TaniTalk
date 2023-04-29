@@ -7,7 +7,7 @@
         <li><a href="identifikasiPenyakit.php"><i class="fa-solid fa-bug"></i>Cek Penyakit</a></li>
         <li><a href="kalkulatorPupuk.php"><i class="fa-solid fa-seedling"></i>Kalkulasi pupuk</a></li>
         <li><a href="cuacaPetani.php"><i class="fa-solid fa-cloud"></i>Cuaca</a></li>
-        <li><a href="#"><i class="fa-solid fa-book"></i>Pencatatan</a></li>
+        <li><a href="tes.php"><i class="fa-solid fa-book"></i>Pencatatan</a></li>
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         <li><a href="../../config/logout.php"><i class="fa-solid fa-power-off"></i>Logout</a></li>
     </ul>
