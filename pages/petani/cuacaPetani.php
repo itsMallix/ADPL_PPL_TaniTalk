@@ -9,10 +9,10 @@
 </head>
 <?php
     include '_sidebarPetani.php';
-    include '_navbarPetani.php';
 ?>
 <body>
-    <div class="container p-3 my-3">
+
+    <div class="container">
         <h2 class="text-title">Prakiraan Cuaca</h2>
         <div class="input-grup">
             <input type="text" class="formControl" id="city" placeholder="Masukkan Nama Kota">

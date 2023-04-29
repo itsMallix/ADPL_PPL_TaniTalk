@@ -9,7 +9,6 @@
 </head>
     <?php
         include '_sidebarPetani.php';
-        include '_navbarPetani.php';
 
         if(isset($_POST['hitung'])){
             $dosis = 0.33;
