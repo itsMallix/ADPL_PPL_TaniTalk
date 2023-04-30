@@ -17,7 +17,7 @@
     ?>
 
     <div class="box">
-        <p class="textLogin">Silahkan Login</p>
+        <p class="textLogin">Daftar Akun</p>
         <form action="config/cekRegis.php" method="post">
             <label>Nama</label>
             <input type="text" name="nama" class="formLogin" placeholder="nama" required="required">
@@ -32,7 +32,7 @@
             <input type="password" name="password" class="formLogin" placeholder="password" required="required">
             
             <label>level</label>
-            <input type="text" name="level" class="formLogin" placeholder="level" required="required">
+            <input type="text" name="level" class="formLogin" placeholder="petani / pengelola" required="required">
 
             <input type="submit" class="loginBtn" value="Login">
         </form>

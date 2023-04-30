@@ -95,11 +95,12 @@ $nama_file = $_FILES['gambar']['name'];
 $tmp_file = $_FILES['gambar']['tmp_name'];
 
 $query = "INSERT INTO katalog_budidaya (judul, deskripsi, pengelola, gambar) VALUES ('$judul', '$deskripsi', '$pengelola', '$nama_file')";
-mysqli_query($conn, $query);
-
-$lokasi = "controller/uploads/".$nama_file;
-move_uploaded_file($tmp_file,$lokasi);
-echo "<script type='text/javascript'>alert('berhasil');window.location='dashboardPetani.php;</script>";
-
-
+if(mysqli_query($conn, $query)){
+    $lokasi = "../../config/controller/uploads/".$nama_file;
+    move_uploaded_file($tmp_file,$lokasi);
+    echo "<script type='text/javascript'>alert('berhasil');window.location='dashboardPetani.php;</script>";
+}else{
+    echo "<script type='text/javascript'>alert('Gagal');window.location='dashboardPetani.php;</script>";
+}
+mysqli_close($conn);
 ?>

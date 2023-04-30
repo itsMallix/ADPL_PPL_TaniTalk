@@ -14,9 +14,10 @@
 }
 
 .cardCol{
-    width: 40%;
+    width: 20%;
     float: left;
     padding: 15px;
+    display: grid;
 }
 
 .card{
@@ -26,10 +27,14 @@
 }
 
 .card:hover{
-    background-color: cyan;
+    background-color: #cae3ac;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 2);
 }
 
 body{
     margin-left: 390px;
+    /* overflow-x: hidden; */
+    width: 100vw;
+    height: 100vh;
+    max-width: 10%;
 }

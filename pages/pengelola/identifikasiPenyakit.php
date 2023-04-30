@@ -8,8 +8,8 @@
     <title>Identifikasi Penyakit</title>
 </head>
     <?php
-        include "_sidebarPetani.php";
-        $target = "controller/upload_penyakit/";
+        include "_sidebarPengelola.php";
+        $target = "../../config/controller/upload_penyakit/";
         $files = glob($target . "*{jpg,jpeg,png,gif}", GLOB_BRACE);
     ?>
 <body>
